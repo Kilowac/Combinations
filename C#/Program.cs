@@ -2,6 +2,14 @@ using System;
 using System.IO;
 using System.Diagnostics;
 namespace Project2{
+	
+	//FIXME: Remove the generation of csDat.txt or update them as to fufil their original purpose
+	//	 This text file conatained the time recorded for the generated combination
+	//	 and were used in part by a different program to for the comparison against the java program
+	//	 I didn't really look into it, but if I remember this program cannot work without the generation of
+	//	 this file. Either remove the necessity of this file generation or restore it's original purpose and
+	//	 add the other program for the program benchmark.
+
 	///Read the Java files first, they are more explanitory than this.
 
 	///General node class, same as the Java Node class, just translated over to C#. Compacted togeather to save file length, not supposed to be readable. Look at Java's for readablility
